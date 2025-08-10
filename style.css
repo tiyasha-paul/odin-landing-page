@@ -26,6 +26,7 @@ a{
 .intro{
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .intro div{
@@ -90,6 +91,8 @@ a{
 }
 
 .items{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
 }
@@ -101,10 +104,35 @@ a{
     font-family: Roboto, sans-serif;
     font-size: ;
     color: rgb(73, 72, 72);
+    line-height: 1.35;
 }
 .item img{
     width: 200px;
     height: auto;
     border: 4px solid #1F2937;
     border-radius: 12px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-quote{
+    font-size: 50px;
+    font-style: italic;
+    font-family: Roboto, sans-serif;
+    color: grey;
+}
+
+.by-max{
+    margin-top: 5px;
+    text-align: right;
+    font-weight: bolder;
+    font-family: Roboto, sans-serif;
+    color: #1F2937;
 }

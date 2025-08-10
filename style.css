@@ -72,8 +72,39 @@ a{
 .title-items{
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
+    justify-content: center;
 }
 
 .items, .box{
     display: flex;  
+}
+
+.title{
+    padding: 15px 0;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    font-family: Roboto, sans-serif;
+}
+
+.items{
+    justify-content: center;
+    gap: 40px;
+}
+
+.item .text{
+    max-width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: ;
+    color: rgb(73, 72, 72);
+}
+.item img{
+    width: 200px;
+    height: auto;
+    border: 4px solid #1F2937;
+    border-radius: 12px;
 }
